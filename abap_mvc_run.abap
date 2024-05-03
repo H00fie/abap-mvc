@@ -12,5 +12,5 @@ INITIALIZATION.
   gr_app = lcl_ctrl=>get_c_reference( ).
 
 START-OF-SELECTION.
-*The method passes the selection screen parametres into the controller and assigns their value to the controller's attributes.
+*The method passes the selection screen parametres into the controller's object and assigns their value to the its attributes.
   gr_app->set_attributes( EXPORTING it_rng_matnr = so_matnr[] ).
